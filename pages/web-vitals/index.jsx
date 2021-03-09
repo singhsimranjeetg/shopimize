@@ -14,7 +14,7 @@ const WebVitals = () => {
   useEffect(() => {
     const WV = webVitalsExt()
     console.log("WV", WV)
-  }, [])
+  })
 
 
   return (

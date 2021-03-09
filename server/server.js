@@ -8,7 +8,7 @@ import next from "next";
 import Router from "koa-router";
 import session from "koa-session";
 
-//module.exports = require('./api/index')
+module.exports = require('./rest-api/index')
 
 dotenv.config();
 const port = parseInt(process.env.PORT, 10) || 8081;
